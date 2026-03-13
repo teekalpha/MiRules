@@ -6,6 +6,7 @@
 # ===========================================================
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,sora.com
@@ -27,6 +28,12 @@ DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.ai
+DOMAIN,cdn.usefathom.com
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR,209.249.57.0/24,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
 
 # ===========================================================
 # Grok / xAI
@@ -38,9 +45,13 @@ DOMAIN-SUFFIX,grok.com
 # Manus
 # ===========================================================
 DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manus.ai
 
 # ===========================================================
 # Cursor
 # ===========================================================
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.ai
+
+

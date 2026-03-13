@@ -97,14 +97,6 @@ DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,bloomberg.com
 
 # ===========================================================
-# 苹果服务
-# ===========================================================
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-
-# ===========================================================
 # 其他常用
 # ===========================================================
 DOMAIN-SUFFIX,amazon.com

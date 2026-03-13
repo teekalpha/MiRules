@@ -142,6 +142,17 @@ IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
 
 # ===========================================================
+# Apple 服务（利用国内 CDN 及云上贵州加速）
+# ===========================================================
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-dns.net
+
+# ===========================================================
 # 顶级域名兜底
 # ===========================================================
 DOMAIN-SUFFIX,cn
