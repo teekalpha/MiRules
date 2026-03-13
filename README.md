@@ -19,16 +19,16 @@
 ## 📁 目录及规则说明
 
 - **/rules**：分类规则集 (.list)
-    - `AI.list`: 核心 AI 基础设施 (OpenAI, Claude, Grok, Manus, Cursor 等)
-    - `TikTok.list`: 字节跳动海外及全系短视频平台 CDN
-    - `Google.list`: Google 核心服务与 YouTube 系媒体
-    - `Microsoft.list`: 微软核心服务 (Office, OneDrive, Azure, Teams 等)
-    - `Media.list`: 国际主流流媒体 (Netflix, Disney+, Spotify 等)
-    - `Proxy.list`: 综合性墙外服务 (社交、效率工具、新闻、开发者服务以及长尾 AI 工具)
-    - `Direct.list`: 国内互联网服务 (阿里/腾讯/百度等)、私有网络及特殊白名单
+  - `AI.list`: 核心 AI 基础设施 (OpenAI, Claude, Grok, Manus, Cursor 等)
+  - `TikTok.list`: 字节跳动海外及全系短视频平台 CDN
+  - `Google.list`: Google 核心服务与 YouTube 系媒体
+  - `Microsoft.list`: 微软核心服务 (Office, OneDrive, Azure, Teams 等)
+  - `Media.list`: 国际主流流媒体 (Netflix, Disney+, Spotify 等)
+  - `Proxy.list`: 综合性墙外服务 (社交、效率工具、新闻、开发者服务以及长尾 AI 工具)
+  - `Direct.list`: 国内互联网服务 (阿里/腾讯/百度等)、私有网络及特殊白名单
 
 - **/base**：基础配置文件
-    - `pref.ini`: Subconverter 全局配置入口，已集成上述所有的策略组和规则集，开箱即用。
+  - `pref.ini`: Subconverter 全局配置入口，已集成上述所有的策略组和规则集，开箱即用。
 
 ## 🚀 使用方法
 
@@ -37,6 +37,7 @@
 将你在用的节点订阅链接，配合本项目根目录的 `pref.ini` 传入 Subconverter 的转换接口。
 
 例如：
+
 ```text
 https://xxx.subconverter.api/sub?target=clash&url=<你的节点订阅网址>&config=https://raw.githubusercontent.com/teekalpha/MiRules/main/base/pref.ini
 ```
@@ -46,11 +47,15 @@ https://xxx.subconverter.api/sub?target=clash&url=<你的节点订阅网址>&con
 如果你需要自行增删规则并测试分流情况：
 
 1. 启动本地调试环境（使用 Nginx 和 Subconverter 本地实例，不污染远程）：
+
    ```bash
    docker compose up -d
    ```
+
 2. 本地测试用的虚拟订阅与本地规则调用：
+
    ```text
    http://localhost:25500/sub?target=clash&url=http://rules-server/test-sub.txt
    ```
+
 3. 修改任何 `.list` 规则保存后，直接在客户端刷新订阅即可验证测试，无需重启容器。
