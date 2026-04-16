@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 
 # Google 短链 / 其他 TLD / 相关服务
+DOMAIN,c.gle
 DOMAIN-SUFFIX,goo.gle
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,google.co.jp

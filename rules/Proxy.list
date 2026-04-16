@@ -71,6 +71,11 @@ DOMAIN-SUFFIX,linux.do
 # ===========================================================
 # 效率工具
 # ===========================================================
+# 代理 / VPS 服务
+DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,justmysocks.net
+
+# 其他工具
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,figma.com
@@ -86,7 +91,6 @@ DOMAIN-SUFFIX,zoomgov.com
 DOMAIN-SUFFIX,metabase.com
 DOMAIN-SUFFIX,plot.ly
 DOMAIN-SUFFIX,tailwindcss.com
-DOMAIN-SUFFIX,justmysocks.net
 DOMAIN-SUFFIX,annas-archive.se
 
 # ===========================================================
@@ -121,6 +125,8 @@ DOMAIN-SUFFIX,stackoverflow.com
 # ===========================================================
 # AI 工具（长尾产品）
 # ===========================================================
+DOMAIN-SUFFIX,youmind.com
+DOMAIN-SUFFIX,dreamfaceapp.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,genspark.ai
 DOMAIN-SUFFIX,midjourney.com
