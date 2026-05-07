@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,metabase.com
 DOMAIN-SUFFIX,plot.ly
 DOMAIN-SUFFIX,tailwindcss.com
 DOMAIN-SUFFIX,annas-archive.se
+DOMAIN-SUFFIX,rsshub.app
 
 # ===========================================================
 # 监控 / 错误追踪 / 分析
@@ -122,6 +123,8 @@ DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,joinbrands.com
+DOMAIN-SUFFIX,openstreetmap.org
+DOMAIN-SUFFIX,chintao.cn
 
 # ===========================================================
 # AI 工具（长尾产品）
